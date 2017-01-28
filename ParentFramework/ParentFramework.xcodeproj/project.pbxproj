@@ -10,6 +10,7 @@
 		F134B3B21E3C8D450020473E /* ParentFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = F134B3B01E3C8D450020473E /* ParentFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F134B3D11E3C8E2C0020473E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F134B3CF1E3C8E2C0020473E /* ViewController.swift */; };
 		F134B3D21E3C8E2C0020473E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F134B3D01E3C8E2C0020473E /* ViewController.xib */; };
+		F134B3D61E3C90960020473E /* ChildFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F134B3D51E3C90960020473E /* ChildFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F134B3CF1E3C8E2C0020473E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F134B3D01E3C8E2C0020473E /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		F134B3D31E3C8EAC0020473E /* ParentFramework.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ParentFramework.playground; sourceTree = "<group>"; };
+		F134B3D51E3C90960020473E /* ChildFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChildFramework.framework; path = "../ChildFramework/build/Debug-iphoneos/ChildFramework.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F134B3D61E3C90960020473E /* ChildFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 				F134B3D31E3C8EAC0020473E /* ParentFramework.playground */,
 				F134B3AF1E3C8D450020473E /* ParentFramework */,
 				F134B3AE1E3C8D450020473E /* Products */,
+				F134B3D41E3C90960020473E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +62,14 @@
 				F134B3D01E3C8E2C0020473E /* ViewController.xib */,
 			);
 			path = ParentFramework;
+			sourceTree = "<group>";
+		};
+		F134B3D41E3C90960020473E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F134B3D51E3C90960020473E /* ChildFramework.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

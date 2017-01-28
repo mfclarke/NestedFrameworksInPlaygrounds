@@ -10,9 +10,9 @@ import UIKit
 
 public class FancyLabel: UILabel {
     
-    public override var text: String? {
-        get { return "Fancy Label!" }
-        set {}
+    public override func awakeFromNib() {
+        super.awakeFromNib()
+        text = "Fancy Label!"
     }
     
 }
