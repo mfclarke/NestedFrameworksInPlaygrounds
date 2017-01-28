@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		F134B3B21E3C8D450020473E /* ParentFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = F134B3B01E3C8D450020473E /* ParentFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F134B3D11E3C8E2C0020473E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F134B3CF1E3C8E2C0020473E /* ViewController.swift */; };
-		F134B3D21E3C8E2C0020473E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F134B3D01E3C8E2C0020473E /* ViewController.xib */; };
 		F134B3D61E3C90960020473E /* ChildFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F134B3D51E3C90960020473E /* ChildFramework.framework */; };
+		F134B3D81E3C91380020473E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F134B3D71E3C91380020473E /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,9 +18,9 @@
 		F134B3B01E3C8D450020473E /* ParentFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentFramework.h; sourceTree = "<group>"; };
 		F134B3B11E3C8D450020473E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F134B3CF1E3C8E2C0020473E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F134B3D01E3C8E2C0020473E /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		F134B3D31E3C8EAC0020473E /* ParentFramework.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ParentFramework.playground; sourceTree = "<group>"; };
 		F134B3D51E3C90960020473E /* ChildFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChildFramework.framework; path = "../ChildFramework/build/Debug-iphoneos/ChildFramework.framework"; sourceTree = "<group>"; };
+		F134B3D71E3C91380020473E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				F134B3B01E3C8D450020473E /* ParentFramework.h */,
 				F134B3B11E3C8D450020473E /* Info.plist */,
 				F134B3CF1E3C8E2C0020473E /* ViewController.swift */,
-				F134B3D01E3C8E2C0020473E /* ViewController.xib */,
+				F134B3D71E3C91380020473E /* Storyboard.storyboard */,
 			);
 			path = ParentFramework;
 			sourceTree = "<group>";
@@ -143,7 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F134B3D21E3C8E2C0020473E /* ViewController.xib in Resources */,
+				F134B3D81E3C91380020473E /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

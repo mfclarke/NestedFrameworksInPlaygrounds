@@ -5,6 +5,6 @@ import ParentFramework
 import PlaygroundSupport
 
 let bundle = Bundle(for: ViewController.self)
-let viewController = ViewController(nibName: "ViewController", bundle: bundle)
+let viewController = UIStoryboard(name: "Storyboard", bundle: bundle).instantiateViewController(withIdentifier: "ViewController")
 
 PlaygroundPage.current.liveView = viewController.view
